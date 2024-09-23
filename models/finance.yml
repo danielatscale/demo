@@ -1,5 +1,25 @@
 unique_name: finance
 object_type: model
 label: finance
-metrics: []
-relationships: []
+metrics:
+  - unique_name: Total Sales Amount
+    folder: Finance
+  - unique_name: Total Order Quantity
+    folder: Finance
+relationships:
+  - unique_name: factinternetsales_productkey_to_DimProduct_Product Name
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - productkey
+    to:
+      dimension: DimProduct
+      level: Product Name
+  - unique_name: factinternetsales_orderdatekey_to_DimDate_Date
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - orderdatekey
+    to:
+      dimension: DimDate
+      level: Date

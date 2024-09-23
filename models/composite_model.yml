@@ -1,4 +1,14 @@
 unique_name: composite_model
 object_type: composite_model
 label: test_comp
-models: []
+models: 
+  - finance
+  - marketing
+
+metric_calc:
+  - unique_name: Total Unit Price
+    folder: Company
+  - unique_name: Total Sales Amount
+    folder: Company
+  - unique_name: Total Unit Price
+    folder: Company
