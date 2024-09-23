@@ -1,0 +1,6 @@
+unique_name: Total Unit Price
+object_type: metric
+label: Total Unit Price
+calculation_method: sum
+column: unitprice
+dataset: factinternetsales

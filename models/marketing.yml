@@ -1,0 +1,23 @@
+unique_name: marketing
+object_type: model
+label: test
+metrics:
+  - unique_name: Total Unit Price
+    folder: Marketing Metric
+relationships:
+  - unique_name: factinternetsales_productkey_to_DimProduct_Product Name
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - productkey
+    to:
+      dimension: DimProduct
+      level: Product Name
+  - unique_name: factinternetsales_orderdatekey_to_DimDate_Date
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - orderdatekey
+    to:
+      dimension: DimDate
+      level: Date
