@@ -1,6 +1,6 @@
 unique_name: marketing
 object_type: model
-label: test
+label: marketing
 metrics:
   - unique_name: Total Unit Price
     folder: Marketing Metric

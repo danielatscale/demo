@@ -1,6 +1,6 @@
 unique_name: composite_model
 object_type: composite_model
-label: test_comp
+label: composite_model
 models: 
   - finance
   - marketing
