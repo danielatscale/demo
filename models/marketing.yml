@@ -4,6 +4,8 @@ label: marketing
 metrics:
   - unique_name: Total Unit Price
     folder: Marketing Metric
+  - unique_name: Number of Customers
+    folder: Marketing Metric
 relationships:
   - unique_name: factinternetsales_productkey_to_DimProduct_Product Name
     from:

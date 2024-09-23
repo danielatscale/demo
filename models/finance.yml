@@ -3,9 +3,9 @@ object_type: model
 label: finance
 metrics:
   - unique_name: Total Sales Amount
-    folder: Finance
+    folder: Finance Metrics
   - unique_name: Total Order Quantity
-    folder: Finance
+    folder: Finance Metrics
 relationships:
   - unique_name: factinternetsales_productkey_to_DimProduct_Product Name
     from:
