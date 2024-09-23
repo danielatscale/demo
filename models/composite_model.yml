@@ -6,9 +6,9 @@ models:
   - marketing
 
 metric_calc:
-  - unique_name: Total Unit Price
-    folder: Company
+  - unique_name: Total Order Quantity
+    folder: Finance
   - unique_name: Total Sales Amount
-    folder: Company
+    folder: Fiance
   - unique_name: Total Unit Price
-    folder: Company
+    folder: Marketing
