@@ -7,8 +7,10 @@ models:
 
 metric_calc:
   - unique_name: Total Order Quantity
-    folder: Finance
+    folder: Finance Metrics
   - unique_name: Total Sales Amount
-    folder: Finance
+    folder: Finance Metrics
   - unique_name: Total Unit Price
-    folder: Marketing
+    folder: Marketing Metrics
+  - unique_name: Number of Customers
+    folder: Marketing Metrics
